@@ -3,7 +3,7 @@ Using undersampling techniques and logistic regression in order to predict credi
 
 This is the Kernel submission for the Kaggle competition "Credit Card Fraud Detection". The dataset contains 28 PCA transformed features of transactions made by credit cards in September 2013 by european cardholders. The dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 total transactions (0.172% of total).
 
-Because of the highly unbalanced nature of the dataset, I used a the confusion matrix to calculate the Precision and Recall of my results. I also used the Undersampling technique in order to take a smaller amount of the normal transactions that occurred and train a logistic regressor based on this. I trained and applied the logistic regressor on all of the data, on only the undersampled data, and then I used the logistic regressor trained on the undersampled data and applied it to all of the data. My recall scores for each were as follows:
+Because of the highly unbalanced nature of the dataset, I used a confusion matrix to calculate the Precision and Recall of my results. I also used the undersampling technique in order to take a smaller amount of the normal transactions that occurred and train a logistic regressor based on this. I trained and applied the logistic regressor on all of the data, on only the undersampled data, and then I used the logistic regressor trained on the undersampled data and applied it to all of the data. My recall scores for each were as follows:
 
 The logistic regressor trianed on and applied to all of the data: 0.52
 The logistic regressor trained on and applied to only the undersampled data: 0.91
