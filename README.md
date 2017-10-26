@@ -9,7 +9,7 @@ The logistic regressor trianed on and applied to all of the data: 0.52
 The logistic regressor trained on and applied to only the undersampled data: 0.91
 The logistic regressor trained on the undersampled data and applied to all of the data: 0.92
 
-As you can see from my results above, the logistic regressor trained on the undersampled data and applied to all of the data had the best results, with a 92% recall rate. A very good start for applying the undersampling technique on only a logistic regressor. 
+As you can see from my results above, the logistic regressor trained on the undersampled data and applied to all of the data had the best results, with a 92% recall rate. A fairly good start for applying the undersampling technique on only a logistic regressor. 
 
 To Do:
   - Try different classfication models (SVM's, Decision Trees)
